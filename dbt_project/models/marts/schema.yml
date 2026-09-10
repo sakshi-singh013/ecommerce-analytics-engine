@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: fct_orders
+    description: "Fact table containing order level financial metrics and profit calculations."
+    columns:
+      - name: order_id
+        description: "Primary key of the order."
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: "Foreign key to dim_customers."
+        tests:
+          - not_null
+
+  - name: dim_customers
+    description: "Dimension table containing RFM customer segments and churn risk metrics."
+    columns:
+      - name: customer_id
+        description: "Primary key of the customer."
+        tests:
+          - unique
+          - not_null
+      - name: rfm_segment
+        description: "Calculated RFM customer cohort segment."
+        tests:
+          - not_null
+
+  - name: dim_products
+    description: "Dimension table containing product margins and sales totals."
+    columns:
+      - name: product_id
+        description: "Primary key of the product."
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_funnel_events
+    description: "Aggregated device conversion funnel performance."
+    columns:
+      - name: device_type
+        tests:
+          - unique
+          - not_null

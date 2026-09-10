@@ -1,0 +1,21 @@
+product_id,product_name,category,unit_price,unit_cost,profit_margin_amount,profit_margin_pct,stock_level,total_units_sold,total_product_revenue
+PROD_0001,Wireless Earbuds,Electronics,79.99,35.00,44.99,56.24,395,415,33195.85
+PROD_0002,Smart Watch,Electronics,199.99,90.00,109.99,55.00,370,458,91595.42
+PROD_0003,Mechanical Keyboard,Electronics,129.99,55.00,74.99,57.69,424,418,54335.82
+PROD_0004,Gaming Mouse,Electronics,49.99,20.00,29.99,59.99,417,408,20395.92
+PROD_0005,USB-C Hub,Electronics,39.99,15.00,24.99,62.49,42,440,17595.60
+PROD_0006,Denim Jacket,Apparel,89.99,30.00,59.99,66.66,305,390,35096.10
+PROD_0007,Cotton T-Shirt,Apparel,24.99,8.00,16.99,67.99,62,415,10370.85
+PROD_0008,Running Shoes,Apparel,119.99,45.00,74.99,62.50,419,358,42956.42
+PROD_0009,Leather Belt,Apparel,34.99,10.00,24.99,71.42,456,437,15290.63
+PROD_0010,Hoodie,Apparel,59.99,22.00,37.99,63.33,284,397,23816.03
+PROD_0011,Coffee Maker,Home & Kitchen,149.99,65.00,84.99,56.66,105,431,64645.69
+PROD_0012,Air Fryer,Home & Kitchen,110.00,48.00,62.00,56.36,197,391,43010.00
+PROD_0013,Blender,Home & Kitchen,69.99,25.00,44.99,64.28,176,406,28415.94
+PROD_0014,Stainless Mug,Home & Kitchen,19.99,6.00,13.99,69.98,110,407,8135.93
+PROD_0015,Desk Lamp,Home & Kitchen,29.99,11.00,18.99,63.32,244,392,11756.08
+PROD_0016,Face Serum,Beauty,39.99,12.00,27.99,69.99,68,392,15676.08
+PROD_0017,Moisturizer,Beauty,29.99,8.00,21.99,73.32,144,365,10946.35
+PROD_0018,Sunscreen SPF 50,Beauty,22.99,6.00,16.99,73.90,353,428,9839.72
+PROD_0019,Shampoo Set,Beauty,34.99,10.00,24.99,71.42,451,413,14450.87
+PROD_0020,Perfume 50ml,Beauty,85.00,25.00,60.00,70.59,260,389,33065.00

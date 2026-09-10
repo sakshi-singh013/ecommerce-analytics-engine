@@ -1,0 +1,6 @@
+ecommerce_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "C:/Users/saksh/.gemini/antigravity/scratch/ecommerce_analytics_engine/data/warehouse.duckdb"

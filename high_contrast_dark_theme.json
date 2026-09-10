@@ -1,0 +1,114 @@
+{
+  "name": "High Contrast Modern Dark",
+  "dataColors": [
+    "#38BDF8",
+    "#34D399",
+    "#F43F5E",
+    "#FBBF24",
+    "#A78BFA",
+    "#FB7185",
+    "#818CF8",
+    "#2DD4BF"
+  ],
+  "background": "#0F172A",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#1E293B",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#1E293B" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#334155" } },
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#000000" } },
+            "position": "Outer",
+            "preset": "BottomRight"
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 13,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "labelColor": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 11,
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": { "solid": { "color": "#F8FAFC" } },
+            "fontSize": 11
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "labelColor": { "solid": { "color": "#F8FAFC" } },
+            "fontSize": 11
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#38BDF8" } },
+            "fontSize": 11,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "cardValue": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 20,
+            "fontFamily": "Segoe UI Bold"
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          {
+            "fontColor": { "solid": { "color": "#38BDF8" } },
+            "fontSize": 11
+          }
+        ],
+        "input": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backgroundColor": { "solid": { "color": "#1E293B" } }
+          }
+        ]
+      }
+    }
+  }
+}

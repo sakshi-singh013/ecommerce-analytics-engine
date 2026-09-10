@@ -1,0 +1,21 @@
+product_id,product_name,category,price,cost_price,stock_level
+PROD_0001,Wireless Earbuds,Electronics,79.99,35.0,395
+PROD_0002,Smart Watch,Electronics,199.99,90.0,370
+PROD_0003,Mechanical Keyboard,Electronics,129.99,55.0,424
+PROD_0004,Gaming Mouse,Electronics,49.99,20.0,417
+PROD_0005,USB-C Hub,Electronics,39.99,15.0,42
+PROD_0006,Denim Jacket,Apparel,89.99,30.0,305
+PROD_0007,Cotton T-Shirt,Apparel,24.99,8.0,62
+PROD_0008,Running Shoes,Apparel,119.99,45.0,419
+PROD_0009,Leather Belt,Apparel,34.99,10.0,456
+PROD_0010,Hoodie,Apparel,59.99,22.0,284
+PROD_0011,Coffee Maker,Home & Kitchen,149.99,65.0,105
+PROD_0012,Air Fryer,Home & Kitchen,110.0,48.0,197
+PROD_0013,Blender,Home & Kitchen,69.99,25.0,176
+PROD_0014,Stainless Mug,Home & Kitchen,19.99,6.0,110
+PROD_0015,Desk Lamp,Home & Kitchen,29.99,11.0,244
+PROD_0016,Face Serum,Beauty,39.99,12.0,68
+PROD_0017,Moisturizer,Beauty,29.99,8.0,144
+PROD_0018,Sunscreen SPF 50,Beauty,22.99,6.0,353
+PROD_0019,Shampoo Set,Beauty,34.99,10.0,451
+PROD_0020,Perfume 50ml,Beauty,85.0,25.0,260

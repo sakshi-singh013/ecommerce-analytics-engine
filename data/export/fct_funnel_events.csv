@@ -1,0 +1,5 @@
+device_type,total_sessions,completed_purchases,conversion_rate_pct
+Desktop,1545,484,31.33
+Tablet,1484,536,36.12
+Mobile-iOS,1502,547,36.42
+Mobile-Android,1468,511,34.81
