@@ -96,15 +96,17 @@ tab1, tab2, tab3, tab4 = st.tabs([
 with tab1:
     st.subheader("Monthly Revenue & Net Profit Trend")
     filtered_orders['ordered_at'] = pd.to_datetime(filtered_orders['ordered_at'])
-    monthly_df = filtered_orders[filtered_orders['is_successful'] == True].set_index('ordered_at').resample('M')[['net_revenue', 'net_profit']].sum().reset_index()
-    monthly_df['ordered_at'] = monthly_df['ordered_at'].dt.strftime('%Y-%b')
+    success_df = filtered_orders[filtered_orders['is_successful'] == True].copy()
+    success_df['month_year'] = success_df['ordered_at'].dt.strftime('%Y-%m')
+    success_df['month_name'] = success_df['ordered_at'].dt.strftime('%Y-%b')
+    monthly_df = success_df.groupby(['month_year', 'month_name'], as_index=False)[['net_revenue', 'net_profit']].sum().sort_values('month_year')
     
     fig_rev = px.bar(
         monthly_df, 
-        x='ordered_at', 
+        x='month_name', 
         y=['net_revenue', 'net_profit'],
         barmode='group',
-        labels={'value': 'Amount ($)', 'ordered_at': 'Month', 'variable': 'Metric'},
+        labels={'value': 'Amount ($)', 'month_name': 'Month', 'variable': 'Metric'},
         title="Monthly Net Revenue vs Net Profit",
         color_discrete_map={'net_revenue': '#1f77b4', 'net_profit': '#2ca02c'}
     )
