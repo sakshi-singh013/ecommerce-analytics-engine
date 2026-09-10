@@ -6,6 +6,8 @@
 [![DuckDB](https://img.shields.io/badge/DuckDB-Latest-yellow.svg?style=for-the-badge&logo=duckdb)](https://duckdb.org)
 [![Power BI](https://img.shields.io/badge/Power_BI-Dark_Executive-gold.svg?style=for-the-badge&logo=powerbi)](https://powerbi.microsoft.com)
 
+> 🚀 **Live Interactive Web Application**: [https://ecommerce-analytics-engine.streamlit.app](https://ecommerce-analytics-engine.streamlit.app)
+
 An end-to-end Modern Data Stack (MDS) platform built with **DuckDB**, **dbt**, **Streamlit**, **Power BI**, and **AI Automated Insights**.
 
 ---
@@ -13,6 +15,13 @@ An end-to-end Modern Data Stack (MDS) platform built with **DuckDB**, **dbt**, *
 ## 📸 Executive Power BI Dark Mode Dashboard
 
 ![Power BI Executive Dashboard](docs/dashboard_preview.png)
+
+---
+
+## 🌐 Live Web App & Reporting Suite
+
+- **Interactive AI Web Application**: [https://ecommerce-analytics-engine.streamlit.app](https://ecommerce-analytics-engine.streamlit.app)
+- **GitHub Repository**: [https://github.com/sakshi-singh013/ecommerce-analytics-engine](https://github.com/sakshi-singh013/ecommerce-analytics-engine)
 
 ---
 
